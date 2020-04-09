@@ -1,0 +1,99 @@
+/*顶部*/
+
+.top_zl {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 12;
+}
+
+.top_zl .top_zl_in {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    /*background-color: yellow;*/
+}
+
+.top_zl_in .top_zl_left {
+    width: 190px;
+    height: 100%;
+    /*background-color: purple;*/
+    float: left;
+}
+
+.top_zl .top_zl_right {
+    width: 740px;
+    height: 100%;
+    /*background-color: purple;*/
+    float: right;
+}
+
+.top_zl .top_zl_left>h1 {
+    width: 100%;
+    height: 100%;
+}
+
+/*logo*/
+
+.top_zl .top_zl_left>h1>a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: url("../images/nubia-logo.png");
+}
+
+/*导航条*/
+
+.top_zl .top_zl_left_nav {
+    width: 540px;
+    height: 100%;
+    float: left;
+    /*background-color: darkblue;*/
+}
+
+.top_zl .top_zl_right_nav {
+    width: 150px;
+    height: 100%;
+    float: right;
+    /*background-color: darkgreen;*/
+}
+
+.top_zl .top_zl_left_nav>li {
+    float: left;
+}
+
+.top_zl .top_zl_left_nav>li>a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 60px;
+    margin-left: 40px;
+}
+
+.top_zl .top_zl_left_nav>li>a:hover {
+    color: #e82c07;
+}
+
+.top_zl .top_zl_right_nav>li {
+    float: right;
+    line-height: 60px;
+    margin-left: 15px;
+}
+
+.top_zl .top_zl_right_nav>li>a {
+    font-size: 12px;
+    color: #ccc;
+    line-height: 60px;
+}
+
+.top_zl .top_zl_right_nav>li>a:hover {
+    color: #e82c07;
+}
+
+.top_zl .top_zl_right_nav>li:nth-child(3) {
+    width: 30px;
+    height: 30px;
+    background: url("../images/nubia-syb-all.png");
+    margin-top: 15px;
+}

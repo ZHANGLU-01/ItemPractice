@@ -1,0 +1,49 @@
+/*尾部*/
+
+.footer_zl {
+    height: 384px;
+    width: 100%;
+    background-color: #efeeeb;
+    padding-top: 60px;
+    margin-top: -10px;
+}
+
+.footer_zl .footer_zl_in {
+    height: 200px;
+    width: 1200px;
+    margin-left: 15px;
+    margin-right: 15px;
+    /*background-color: yellow;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer_zl .footer_zl_in .link {
+    float: left;
+    width: 200px;
+}
+
+.footer_zl .footer_zl_in .link>h5 {
+    color: #606463;
+    font-size: 18px;
+    bottom: 15px;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+.footer_zl .footer_zl_in .link>li {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.footer_zl .footer_zl_in .link>li>a {
+    color: #606463;
+}
+
+.footer_zl .footer_zl_in .kefu>img {
+    margin-top: 10px;
+}
+
+.footer_zl .footer_zl_in .link>li>a:hover {
+    color: rgb(238, 105, 105);
+}
